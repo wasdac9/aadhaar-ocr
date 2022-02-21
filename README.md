@@ -29,9 +29,9 @@ aadhaar_front_img and aadhaar_back_img
 
 ### main.py
 In main.py set the following paths
-'''
+```
 tesseract_path = Path("<path/to/tesseract.exe>") // set tesseract.exe path
 aadhaar_front_img_path = Path("<path/to/aadhaar_front_image>") // set aadhaar front image path
 aadhaar_back_img_path = Path("<path/to/aadhaar_back_image>") // set aadhaar back image path
 pytesseract.pytesseract.tesseract_cmd = tesseract_path
-'''
+```
