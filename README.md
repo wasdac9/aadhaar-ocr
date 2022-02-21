@@ -16,7 +16,7 @@ Download Tesseract OCR for windows
    https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.1.20220118.exe
 
 More info at https://github.com/UB-Mannheim/tesseract/wiki
-Note: Download the file and extract the contents of the file. Keep a note of the path of tesseract.exe(Eg: Desktop\Tesseract\tesseract.ocr)
+Note: Download the file and extract the contents of the file. Keep a note of the path of tesseract.exe(Eg: Desktop\Tesseract\tesseract.exe)
 
 ## Project Info
 
@@ -24,5 +24,5 @@ Extract details like Name, Date of Birth, Gender, Mobile No., Aadhaar No., and A
 
 ### Code Explanation
 
-Setting up path to tesseract.exe(tesseract.exe cant be found at download location of Tesseract OCR Engine Eg: Desktop\Tesseract\tesseract.ocr),
+Setting up path to tesseract.exe(tesseract.exe cant be found at download location of Tesseract OCR Engine Eg: Desktop\Tesseract\tesseract.exe),
 aadhaar_front_img and aadhaar_back_img
