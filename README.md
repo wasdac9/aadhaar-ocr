@@ -17,5 +17,7 @@ Download Tesseract OCR for windows
 
 More info at https://github.com/UB-Mannheim/tesseract/wiki
 
+## Project
 
+Extract details like Name, Date of Birth, Gender, Mobile No., Aadhaar No., and Address directly from an image of Aadhaar Card using OCR.
 
