@@ -7,6 +7,7 @@
 4) numpy 1.20.0 or above
 
 ## Downloading Tesseract OCR
+Along with above requirements you also need Tesseract OCR Engine.
 
 Download Tesseract OCR for windows
 1) 32-bit version:
