@@ -1,4 +1,4 @@
-# aadhaar-ocr
+# **aadhaar-ocr**
 
 ## Requirements
 1) opencv-python 4.5.3.56 or above
@@ -68,6 +68,6 @@ Choose the points in the same order as before, crop the image similar to the ima
 ![alt text](https://github.com/wasdac9/aadhaar-ocr/blob/main/aadhaar_back_example.png)
 
 ### Output
-The details extracted using ocr will be stored in a JSON file in the same root directory by the name aadhaar_info_<time>.JSON
+The details extracted using ocr will be stored in a JSON file in the same root directory by the name **aadhaar_info_<time>.JSON**
 The values that were not found by OCR  will be set to null in JSON.
 
