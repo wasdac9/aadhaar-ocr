@@ -46,7 +46,7 @@ Now you can run main.py
 On running main.py you will get a black and white aadhaar front image first, here you will have to choose four points to crop the image so 
 that we only keep data part of the image.
 
-###The order 
+### The order 
 
 of choosing the points
 TopLeft=>TopRight=>BottomLeft=>BottomRight
