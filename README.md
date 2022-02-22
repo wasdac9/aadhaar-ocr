@@ -43,6 +43,9 @@ img = cv2.resize(img,(0,0),fx=0.5,fy=0.5)
 Now you can run main.py
 
 ### Running main.py
+ 
+#### First image pop-up
+
 On running main.py you will get a black and white aadhaar front image first, here you will have to choose four points to crop the image so 
 that we only keep data part of the image.
 
@@ -56,4 +59,15 @@ The four points need not form an exact rectangle it can form any quadrilateral b
 
 ![alt text](https://github.com/wasdac9/aadhaar-ocr/blob/main/aadhaar_front_example.png)
 
+#### Second image pop-up
+
+The second image window will be aadhaar back image.
+
+Choose the points in the same order as before, crop the image similar to the image below (we need only the address excluding the "Address :" part)
+
+![alt text](https://github.com/wasdac9/aadhaar-ocr/blob/main/aadhaar_back_example.png)
+
+### Output
+The details extracted using ocr will be stored in a JSON file in the same root directory by the name aadhaar_info_<time>.JSON
+The values that were not found by OCR  will be set to null in JSON.
 
