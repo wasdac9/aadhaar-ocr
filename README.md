@@ -45,6 +45,6 @@ Now you can run main.py
 ### Running main.py
 On running main.py you will get a black and white aadhaar front image first, here you will have to choose four points to crop the image so that we only keep data part of the image.
 ####The order of choosing the points is TopLeft=>TopRight=>BottomLeft=>BottomRight
-![alt text](https://github.com/[wasdac9]/[aadhaar-ocr]/blob/[main]/aadhaar_front_example.png?raw=true)
+![alt text](https://github.com/wasdac9/aadhaar-ocr/blob/main/aadhaar_back_example.png)
 
 
