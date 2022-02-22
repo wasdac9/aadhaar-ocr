@@ -55,6 +55,8 @@ that we only keep data part of the image.
 
 The points are marked in red with their order(try to choose points similar to the image below, we only need data part of the image).
 
+Note: Since the original image is B/W the points are white in color
+
 The four points need not form an exact rectangle it can form any quadrilateral because we perspective transform the image later on.
 
 ![alt text](https://github.com/wasdac9/aadhaar-ocr/blob/main/aadhaar_front_example.png)
