@@ -54,6 +54,6 @@ The points are marked in red with their order(try to choose points similar to th
 
 The four points need not form an exact rectangle it can form any quadrilateral because we perspective transform the image later on.
 
-![alt text](https://github.com/wasdac9/aadhaar-ocr/blob/main/aadhaar_back_example.png)
+![alt text](https://github.com/wasdac9/aadhaar-ocr/blob/main/aadhaar_front_example.png)
 
 
