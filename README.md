@@ -43,10 +43,11 @@ img = cv2.resize(img,(0,0),fx=0.5,fy=0.5)
 Now you can run main.py
 
 ### Running main.py
-On running main.py you will get a black and white aadhaar front image first, here you will have to choose four points to crop the image so that we only keep data part of the image.
+On running main.py you will get a black and white aadhaar front image first, here you will have to choose four points to crop the image so 
+that we only keep data part of the image.
 
-##The order of choosing the points is TopLeft=>TopRight=>BottomLeft=>BottomRight
-The points are marked in red with their order(try to chose points similar to the image below, we only need that part of the image)
+#The order of choosing the points is TopLeft=>TopRight=>BottomLeft=>BottomRight
+The points are marked in red with their order(try to choose points similar to the image below, we only need data part of the image)
 The four points need not form an exact rectangle it can form any quadrilateral because we perspective transform the image later on.
 
 ![alt text](https://github.com/wasdac9/aadhaar-ocr/blob/main/aadhaar_back_example.png)
