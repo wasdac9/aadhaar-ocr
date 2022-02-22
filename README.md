@@ -1,4 +1,5 @@
 # **aadhaar-ocr**
+Extract Aadhaar card details like Name, date of Birth, Gender, Mobile No., Aadhaar No.(UID) and Address using Tesseract OCR.
 
 ## Requirements
 1) opencv-python 4.5.3.56 or above
