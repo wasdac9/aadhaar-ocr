@@ -49,7 +49,9 @@ that we only keep data part of the image.
 #### The order of choosing the points
 
 Order : TopLeft(1)=>TopRight(2)=>BottomLeft(3)=>BottomRight(4)
+
 The points are marked in red with their order(try to choose points similar to the image below, we only need data part of the image).
+
 The four points need not form an exact rectangle it can form any quadrilateral because we perspective transform the image later on.
 
 ![alt text](https://github.com/wasdac9/aadhaar-ocr/blob/main/aadhaar_back_example.png)
