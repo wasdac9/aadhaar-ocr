@@ -21,11 +21,11 @@ Note: Download the file and extract the contents of the file. Keep a note of the
 
 ## **Project Info**
 
-Extract details like Name, Date of Birth, Gender, Mobile No., Aadhaar No., and Address directly from an image of Aadhaar Card using OCR.
+Extract details like Name, Date of Birth, Gender, Mobile No., Aadhaar No., and Address directly from Aadhaar Card image using OCR. You will require two images of your Aadhaar Card. First Image should be Front Side of Aadhaar Card and Second Image should be Back Side of Aadhaar Card.
 
 ### **Code**
 
-Setting up path to tesseract.exe(tesseract.exe cant be found at download location of Tesseract OCR Engine Eg: Desktop\Tesseract\tesseract.exe),
+Setting up path to tesseract.exe(tesseract.exe can be found at download location of Tesseract OCR Engine Eg: Desktop\Tesseract\tesseract.exe),
 aadhaar_front_img and aadhaar_back_img
 
 ### **main.py**
@@ -58,7 +58,7 @@ The points are marked in red with their order(try to choose points similar to th
 
 Note: Since the original image is B/W the points are white in color
 
-The four points need not form an exact rectangle it can form any quadrilateral because we perspective transform the image later on.
+The four points need not form an exact rectangle it can form any quadrilateral because we run perspective transform on the image in the code.
 
 ![alt text](https://github.com/wasdac9/aadhaar-ocr/blob/main/aadhaar_front_example.png)
 
