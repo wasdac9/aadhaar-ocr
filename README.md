@@ -50,7 +50,7 @@ Now you can run main.py
  
 #### **First image pop-up**
 
-On running main.py you will get a black and white aadhaar front image first, here you will have to choose four points to crop the image so 
+On running main.py you will get a grayscale aadhaar front image first, here you will have to choose four points to crop the image so 
 that we only keep data part of the image.
 
 #### **The order of choosing the points**
@@ -58,8 +58,9 @@ that we only keep data part of the image.
 **Order : TopLeft(1)=>TopRight(2)=>BottomLeft(3)=>BottomRight(4)**
 
 The points are marked in red with their order(try to choose points similar to the image below, we only need data part of the image).
+The points can be marked on the image by moving the cursor to a location and clicking left mouse button.
 
-Note: Since the original image is B/W the points are white in color
+Note: Since the original image is grayscale the points are white in color
 
 The four points need not form an exact rectangle it can form any quadrilateral because we run perspective transform on the image in the code.
 
